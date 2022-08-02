@@ -19,17 +19,21 @@ const about = () => {
 
       <div className="about__content">
         <div className="about__cards">
-          <article className='about__card'>
-            <FaSchool className='about__icon'/>
-            <h5>Education</h5>
-            <small>SMKN 1 KOTA BEKASI (2021-NOW)</small>
-          </article>
+          <a href="https://smkn1kotabekasi.sch.id/">
+            <article className='about__card'>
+              <FaSchool className='about__icon'/>
+              <h5>Education</h5>
+              <small>SMKN 1 KOTA BEKASI (2021-NOW)</small>
+            </article>
+          </a>
           
-          <article className='about__card'>
-            <AiOutlineProject className='about__icon'/>
-            <h5>Project</h5>
-            <small>1 Project</small>
-          </article>
+          <a href='#portofolio'>
+            <article className='about__card'>
+                <AiOutlineProject className='about__icon'/>
+                <h5>Project</h5>
+                <small>2 Project</small>
+              </article>
+          </a>
         </div>
 
         <p>

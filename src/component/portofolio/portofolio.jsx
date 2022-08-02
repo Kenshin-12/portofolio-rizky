@@ -23,7 +23,7 @@ const portofolio = () => {
   return (
     <section id='portofolio'>
       <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h2>Project</h2>
 
       <div className='container portofolio__container'>
        {
