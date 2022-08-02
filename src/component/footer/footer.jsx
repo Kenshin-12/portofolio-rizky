@@ -5,9 +5,9 @@ import {AiFillInstagram} from 'react-icons/ai'
 import {BsFacebook} from 'react-icons/bs'
 import {AiFillYoutube} from 'react-icons/ai'
 
-const Footer = () => {
+const footer = () => {
   return (
-    <footer>
+    <footer id='footer'>
       <a href="#" className='footer__logo'>M. Rizky Ferdiansyah X-RPL-A</a>
 
       <ul className='permalinks'>
@@ -33,4 +33,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default footer
