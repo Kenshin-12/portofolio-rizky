@@ -38,7 +38,7 @@ nav a.active {
 
 @media screen and (max-width: 1024px) {
     nav {
-        background: rgb(255, 46, 175);
+        background: rgb(255, 46, 175, 0.5);
         width: max-content;
         display: block;
         padding: 0.7rem 1.7rem;
