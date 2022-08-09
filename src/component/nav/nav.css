@@ -13,14 +13,14 @@ ul {
 
 li {
   float: left;
-  margin-left: 125px;
+  display: block;
 }
 
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 15px 20px;
+  padding: 15px 95.4px;
   text-decoration: none;
 }
 
@@ -38,7 +38,7 @@ li a:hover:not(.active) {
   li a {
       font-size: 0.7rem;
       gap: 0.5rem;
-      padding: 15px 8px;
+      padding: 10px 8px;
   }
 
   .n-icon {
