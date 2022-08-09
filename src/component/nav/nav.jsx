@@ -1,22 +1,23 @@
-import React from 'react'
 import './nav.css'
 import {AiFillHome} from 'react-icons/ai'
 import {FaUserAlt} from 'react-icons/fa'
 import {BiBook} from 'react-icons/bi'
 import {BsFillTelephoneFill} from 'react-icons/bs'
 import {AiFillFile} from 'react-icons/ai'
-import {useState} from 'react'
+import { Link } from 'react-router-dom'
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#')
   return (
-    <nav>
-      <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiFillHome/></a>
-      <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><FaUserAlt/></a>
-      <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook/></a>
-      <a href="#portofolio" onClick={() => setActiveNav('#portofolio')} className={activeNav === '#portofolio' ? 'active' : ''}><AiFillFile/></a>
-      <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BsFillTelephoneFill/></a>
-    </nav>
+      <nav>
+        <ul> 
+          <li><Link to="/"><AiFillHome className='n-icon'/> Home</Link></li>
+          <li><Link to="/about"><FaUserAlt className='n-icon'/> About</Link></li>
+          <li><Link to="/experience"><BiBook className='n-icon'/> Experiences</Link></li>
+          <li><Link to="/portofolio"><AiFillFile className='n-icon'/> Project</Link></li>
+          <li><Link to="/contact"><BsFillTelephoneFill className='n-icon'/> Contact</Link></li>
+        </ul>
+      </nav>
+      
   )
 }
 

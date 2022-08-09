@@ -2,6 +2,7 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/insta.jpg'
 import {AiOutlineProject} from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 import {FaSchool} from 'react-icons/fa'
 
 const about = () => {
@@ -42,7 +43,7 @@ const about = () => {
           Saya sangat suka mempelajari ilmu pemrogaman dan ingin membuat program yang menarik dan bermanfaat bagi semua orang.
         </p>
 
-        <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+        <Link to="/contact" className='btn btn-primary'>Let's Talk</Link>
       </div>
       </div>
     </section>

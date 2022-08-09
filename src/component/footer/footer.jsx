@@ -10,14 +10,6 @@ const footer = () => {
     <footer id='footer'>
       <a href="#" className='footer__logo'>M. Rizky Ferdiansyah X-RPL-A</a>
 
-      <ul className='permalinks'>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Experience</a></li>
-        <li><a href="#">Project</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-
       <div className='footer__socials'>
         <a href="https://facebook.com"><BsFacebook/></a>
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><AiFillYoutube/></a>

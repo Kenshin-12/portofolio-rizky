@@ -109,7 +109,7 @@ a hover {
 
 .btn-primary {
     background: darkmagenta;
-    color: var(--color-);
+    color: var(--color-primary);
 }
 
 img {
