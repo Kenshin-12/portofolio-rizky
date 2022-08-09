@@ -6,7 +6,7 @@
 
 .experience__container > div {
     background: var(--color-bg-variant);
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 2rem;
     border: 3px solid transparent;
     transition: var(--transition);
@@ -57,11 +57,12 @@
 @media screen and (max-width: 1024px) {
     .experience__container {
         grid-template-columns: 1fr;
+        row-gap: 10px;
     }
 
     .experience__container > div {
-        width: 100%;
-        padding: 1rem;
+        width: 50%;
+        padding: 0;
         margin: 0 auto;
     }
 
@@ -74,11 +75,17 @@
 
 @media screen and (max-width: 600px){
     .experience__container {
-        gap: 1rem 1rem;
+        gap: 2rem;
     }
 
     .experience__container > div {
         width: 100%;
-        padding: 1rem 1rem;
+        padding: 0;
+    }
+
+    .experience__details{
+        display: flex;
+        flex-direction: 1fr;
+        gap: 5px;
     }
 }
