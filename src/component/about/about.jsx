@@ -28,13 +28,13 @@ const about = () => {
             </article>
           </a>
           
-          <a href='#portofolio'>
+          <Link to='/portofolio'>
             <article className='about__card'>
                 <AiOutlineProject className='about__icon'/>
                 <h5>Project</h5>
                 <small>2 Project</small>
               </article>
-          </a>
+          </Link>
         </div>
 
         <p>

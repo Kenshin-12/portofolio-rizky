@@ -10,6 +10,10 @@ header {
     position: relative;
 }
 
+.title {
+    padding-bottom: 1rem;
+}
+
 /* ================= CTA ================= */
 
 .cta {
@@ -27,13 +31,13 @@ header {
     align-items: center;
     gap: 1rem;
     position: absolute;
-    left: 30rem;
-    bottom: -3rem;
-    transform: rotate(90deg);
+    left: 18rem;
+    bottom: 3rem;
+    transform: rotate(0deg);
 }
 
 .header__socials a{
-    transform: rotate(-90deg);
+    transform: rotate(0deg);
 }
 
 .header__socials::after {
