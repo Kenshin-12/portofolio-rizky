@@ -4,7 +4,7 @@ import Nav from './component/nav/Navbar'
 import About from './component/about/about'
 import Experience from './component/experience/experience'
 import AppBar from './component/nav/appMobile'
-import Portofolio from './component/portofolio/Portofolio'
+import Portofolio from './component/portofolio/portofolio'
 import Contact from './component/contact/contact'
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
