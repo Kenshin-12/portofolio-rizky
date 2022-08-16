@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/fotoku-removebg.png'
@@ -8,9 +8,12 @@ const Header = ({ datas }) => {
   const { apa, setApa } = datas
   const { job, setJob } = datas
   const { salam, setSalam } = datas
+  const [param, setParam] = useState(false)
+
 
 function halo(){
-  setSalam ("Hello I'm");
+  setParam(!param)
+  setSalam (param ? "Hello I'm" : "Assalamualaikum");
 }
 
 function orang(){

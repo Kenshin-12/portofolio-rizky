@@ -8,7 +8,7 @@ import {AiFillYoutube} from 'react-icons/ai'
 const footer = () => {
   return (
     <footer id='footer'>
-      <a href="#" className='footer__logo'>M. Rizky Ferdiansyah X-RPL-A</a>
+      <a href="#" className='footer__logo'><b>M. Rizky Ferdiansyah X-RPL-A</b></a>
 
       <div className='footer__socials'>
         <a href="https://facebook.com"><BsFacebook/></a>

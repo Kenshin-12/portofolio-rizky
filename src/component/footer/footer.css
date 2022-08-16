@@ -8,6 +8,11 @@ footer{
 
 footer a{
     color: var(--color-primary);
+    transition: all 400ms ease;
+}
+
+footer a:hover{
+    color: black;
 }
 
 .footer__logo{

@@ -34,9 +34,9 @@ html{
     display: none;
 }
 
-body{
+body {
     font-family: "poppins", sans-serif;
-    background: #4a036d;
+    background-color: #4a036d;
     color: var(--color-light);
     line-height: 1.7;
     background-image: url(../src/assets/bg-texture.png);
